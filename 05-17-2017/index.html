@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+    </head>
+    <body>
+    <!-- TODO: replace this code with form -->
+        <article>
+            <header id="header">
+                <h1>Welcome to my website!</h1>
+            </header>
+            <section id="section">
+                <!-- form for new license in dmv-->
+                <form name="newLicenseForm">
+                    <!-- camel casing-->
+                    <div>
+                        <label for="firstName">Applicant's First Name</label>
+                        <input type="text" id="firstName" name="fName" placeholder="First Name"/>
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="lastName">Applicant's Last Name:</label>
+                        <input type="text" id="lastName" name="lName" placeholder="Last Name"/>
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="phoneNumber">Applicant's Phone Number:</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Phone Number"/>
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="gender">Applicant's Gender:</label>
+                        <div id="gender">
+                            <label for="male">Male:</label>
+                            <input type="radio" id="male" name="gender" value="male"/>
+                            <label for="female">Female:</label>
+                            <input type="radio" id="female" name="gender" value="female"/>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div>
+                        <label for="seniorCitizen">Is applicant a senior citizen?</label>
+                        <input type="checkbox" id="seniorCitizen" name="seniorCitizen"/>
+                    </div>
+
+                    <button type="submit" id="submit" name="submit">
+                        <span>Submit</span>
+                    </button>
+
+                    <button type="reset" id="reset" name="reset">
+                        <span>Cancel</span>
+                    </button>
+
+                </form>
+
+            </section>
+            <!--
+                <article>
+                    <header></header>
+                    <section></section>
+                    <footer></footer>
+                </article>
+                -->
+            <footer id="footer">
+                I'm at the bottom
+            </footer>
+        </article>
+    <!-- TODO: replace above  code with form -->
+    </body>
+</html>
