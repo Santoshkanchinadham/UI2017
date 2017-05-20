@@ -1,0 +1,75 @@
+browsers intrepret the elements via two ways:
+
+1. block level element:has dimensions.
+2. inline level element: doesn't have dimensions.it takes the dimensions from its child element
+
+examples of block level elements are:
+1. body
+2. div: short for divisions
+3. section, article, header, footer
+
+examples of inline are:
+1. span
+2. a
+3. image
+
+in html5, a new concept was introduced called "trinity":
+<article>
+  <header></header>
+  <section></section>
+  <footer></footer>
+</article>
+
+
+h1,h2,h3,h4,h5,h6
+
+there are two ways of having lists in html:
+1.unordered list
+2.ordered list
+
+the elements <ul> and <ol> can have only one child element and that is <li> (a list)
+semantic html
+
+origin -> your fork
+upstream -> main repository
+
+what is attribute in html
+an attribute in html basically describes its characteristics
+
+there are several attributes available for us but few are standard for all elements:
+1. id- describes the uniqueness of the element
+2. class - this shares common values between elements
+
+<attribute name>="<value>"
+example:
+<header id="heading"></header>
+
+adding comments in html
+comments - these are helpful tips left by developer
+
+to comment a line or a block of lines in html, we use <!-- -->
+
+<form>
+  <div>
+     <input>
+     <button>
+  </div>
+</form>
+
+there are two main components with which html gets rendered by the browser:
+1. Tag - a tag has closing tag name ex: <header> </header>
+2. element - elements in html are fields which accept some sort of inputs. They dont have a closing field
+
+every element has a required attribute which needs to be added at any cost
+
+form after submitting the form, table is rendered
+
+newLicenseForm - Camel casing in programming language.
+
+every input field must have "id" attribute and "name" attribute
+
+Head holds the metadata
+A metadata is nothing but a data about data.
+
+img-src
+data-src
