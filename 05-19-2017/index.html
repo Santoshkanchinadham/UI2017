@@ -6,9 +6,13 @@
         <!--style- this is used to write CSS style on the html file-->
         <style>
             body{
+
                 background-color: #eeeeee;
+
             }
         </style>
+        <!--this is external style-->
+        <link href="Style.css" rel="stylesheet"/>
         <!--script-this is used to write javascript on the html file-->
         <script>
 
@@ -24,7 +28,8 @@
         <meta name="keywords" content="DMV, license, license form, form, Application"/>
         <meta charset="UTF-8"
     </head>
-    <body>
+    <!--this is inline/attribute style-->
+    <body style="background-color: white;">
     <!-- TODO: replace this code with form -->
         <article>
             <header id="header">
@@ -34,12 +39,12 @@
                 <!-- form for new license in dmv-->
                 <form name="newLicenseForm">
                     <!-- camel casing-->
-                    <div>
+                    <div class="wifi">
                         <label for="firstName">Applicant's First Name</label>
                         <input type="text" id="firstName" name="fName" placeholder="First Name"/>
                     </div>
                     <br/>
-                    <div>
+                    <div class="wifi">
                         <label for="lastName">Applicant's Last Name:</label>
                         <input type="text" id="lastName" name="lName" placeholder="Last Name"/>
                     </div>

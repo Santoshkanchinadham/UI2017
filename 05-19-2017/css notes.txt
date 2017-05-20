@@ -1,0 +1,56 @@
+css- cascading style sheet
+
+syntaax is :
+
+<name of the element> {
+	<style>:<value>;
+}
+Ex:
+
+body {
+	color:white;
+}
+
+there are three ways you can write a css:
+1. attribute/inline- this is given the first priority
+2. internal-this is given the second priority
+3. external- this is given the least priority
+
+Relative path- <link href="../05-17-2017/HtmlNotes.txtstyle.css" rel="stylesheet"/>
+Absolute path-<link href="C:\UI2017Training\UI2017\05-19-2017\index.html" rel="stylesheet"/>
+
+syntax of attribute/inline:
+style="<style>:<value>;<style>:<value>"
+
+syntax for internal and external style:
+<name of the element> {
+	<style>:<value>;
+}
+----------------------------------------------------------------------------------------------------------
+In css we use this format for comments
+/*------------*/
+
+browsers understand RGB color space (red green blue)
+
+
+1. border:
+
+	the convention is:
+	border: <dimension> <style> <color>;
+
+2. display:
+	display is used to determine the display nature of the element
+	there are several ways to dispaly an element:
+	1. inline
+	2. block level
+	3. inline-block
+	4. flex
+	5.table
+	6.none
+
+3. we can capture the attributes of html in our css file to apply styles to that particluar element
+
+4. capturing via id:
+in css, to capture an id, we use # as the suffix.
+
+<element>[] -> to target a specific element
