@@ -1,0 +1,3 @@
+PRIMITIVE DATATYPES:
+
+1. Number
